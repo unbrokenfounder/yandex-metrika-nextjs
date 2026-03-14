@@ -1,0 +1,52 @@
+{
+  "name": "yandex-metrika-nextjs",
+  "version": "1.0.0",
+  "description": "React component and hooks for Yandex Metrika. Connect your counter with optional cookie consent.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unbrokenfounder/yandex-metrika-nextjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unbrokenfounder/yandex-metrika-nextjs/issues"
+  },
+  "homepage": "https://github.com/unbrokenfounder/yandex-metrika-nextjs#readme",
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0 || ^19.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "yandex",
+    "metrika",
+    "analytics",
+    "react",
+    "next.js",
+    "counter"
+  ],
+  "author": "",
+  "license": "MIT"
+}
