@@ -1,6 +1,6 @@
 {
   "name": "@unbrokenfounder/yandex-metrika-nextjs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React component and hooks for Yandex Metrika. Connect your counter with optional cookie consent.",
   "keywords": [
     "yandex",
